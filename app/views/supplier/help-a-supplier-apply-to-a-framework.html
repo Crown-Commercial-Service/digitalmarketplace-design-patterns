@@ -1,0 +1,100 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Help a supplier apply to a framework - Digital Marketplace designs
+{% endblock %}
+
+{% block beforeContent %}
+
+<div class="back">
+  <a href="../supplier" class="govuk-back-link">Back to supplier's journey</a>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds intro">
+
+    <h1 class="govuk-heading-xl govuk-!-margin-bottom-2">
+      Help a supplier apply to a framework
+    </h1>
+    <p class="govuk-body-l">The design is made up of 3 steps that help a supplier to:</p>
+    <ul class="govuk-body-l govuk-list govuk-list--bullet">
+      <li>make a declaration</li>
+      <li>add their company details</li>
+      <li>add services</li>
+    </ul>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+  <div class="illustration">
+    <img src="../public/images/placeholder.png" width="100%">
+  </div>
+
+  <h3 class="govuk-heading-m">How the design works</h3>
+
+  <p>Use this design if you need to break down distinct application activities that can be carried out by different people.</p>
+
+  <p>The design works by:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>splitting a complex task into smaller sections</li>
+    <li>using a <a href="https://design-system.service.gov.uk/patterns/task-list-pages/">tasklist pattern</a> to give users an idea of what is left to complete</li>
+    <li>centralising company details and putting them at account level so suppliers don’t have to enter the same information twice</li>
+    <li>allowing users to copy answers from previous iterations of the same framework</li>
+  </ul>
+
+
+  <h3 class="govuk-heading-m">Components used in the design</h3>
+
+  <p>The design is based on a mixture of several components in the GOV.UK design system:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>parts of the <a href="https://design-system.service.gov.uk/patterns/task-list-pages/">tasklist</a></li>
+    <li>form elements like <a href="https://design-system.service.gov.uk/components/checkboxes/">checkboxes</a>, <a href="https://design-system.service.gov.uk/components/text-input/">text fields</a> and <a href="https://design-system.service.gov.uk/components/radios/">radio buttons</a></li>
+    <li>a version of <a href="https://design-system.service.gov.uk/patterns/confirmation-pages/">confirmation banners</a> to reassure suppliers they have completed a section</li>
+  </ul>
+
+
+  <h3 class="govuk-heading-m">Why this is useful</h3>
+
+  <p>This provides a single place for all tasks relating to a framework application.</p>
+
+  <h3 class="govuk-heading-s">Helping users add their company information</h3>
+
+  <p>This section helps suppliers to review and confirm information that, if wrong, would need the  support team to change it. That’s information (like a DUNs numbers or company registration number.</p>
+
+  <p>It also enables them to change certain ‘low risk’ details themselves like their company address which reduces unnecessary support queries.</p>
+
+  <h3 class="govuk-heading-s">Adding a service</h3>
+
+  <p>This is useful for catalogue services (like G-Cloud) because suppliers are asked to provide the data that is then shown to buyers to help them make a decision. How suppliers define their services becomes the data that buyers use to narrow down requirements.</p>
+
+
+  <h3 class="govuk-heading-m">Things to consider</h3>
+
+  <p>It might be worth considering that:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>the tasklist design we used confuses users and the <a href="/buyer/help-a-buyer-get-the-most-relevant-search-results">saved searched version</a> performed better in usability testing</li>
+    <li>the supplier declaration is not in plain English and still makes direct reference to the legislation</li>
+    <li>adding services is very time consuming for first-time users</li>
+    <li>suppliers don’t always describe their services accurately which means it can be hard for buyers to find the right services for G-Cloud</li>
+  </ul>
+
+<!-- Bit -->
+
+    <h3 class="govuk-heading-m">Contact the Digital Marketplace team</h3>
+
+    <p class="govuk-body">If you’d like to talk to us about the work we did, <a href="mailto:ccsrequests@digitalmarketplace.service.gov.uk">contact the Digital Marketplace team.</a></p>
+
+  </div>
+</div>
+
+{% endblock %}
