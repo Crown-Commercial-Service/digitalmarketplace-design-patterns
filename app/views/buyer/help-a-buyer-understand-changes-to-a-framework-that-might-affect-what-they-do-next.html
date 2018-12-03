@@ -1,0 +1,83 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+Help a buyer understand changes to a framework that might affect what they do next - Digital Marketplace designs
+{% endblock %}
+
+{% block beforeContent %}
+
+<div class="back">
+  <a href="../buyer" class="govuk-back-link">Back to buyer's journey</a>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds intro">
+
+    <h1 class="govuk-heading-xl govuk-!-margin-bottom-2">
+      Help a buyer understand changes to a framework that might affect what they do next
+    </h1>
+    <p class="govuk-body-l">This design lets us tell users information that might affect what they need to do next.</p>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+  <div class="illustration">
+    <img src="../public/images/changes-to-a-framework-banner.png" width="100%">
+  </div>
+
+  <h3 class="govuk-heading-m">How the design works</h3>
+
+  <p class="govuk-body">We use blue banners above the page title to provide relevant information about the service.</p>
+
+  <p class="govuk-body">This includes telling buyers that a:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>framework will expire soon</li>
+    <li>framework has expired</li>
+    <li>new framework iteration has opened</li>
+    <li>service has been withdrawn</li>
+  </ul>
+
+  <p class="govuk-body">We also use the banners to reveal <a href="help-a-buyer-confirm-who-won-the-contract">who won a contract</a>.</p>
+
+
+  <h3 class="govuk-heading-m">Why this is useful</h3>
+
+  <p class="govuk-body">This design allows us to tell buyers about something:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>that’s happening soon that could change their behaviour, for example a framework’s expiring</li>
+    <li>that could affect what they do next, for example a service has been withdrawn</li>
+    <li>that’s useful to know, for example a new framework iteration has opened</li>
+  </ul>
+
+  <p class="govuk-body">This information is placed at relevant points of the user journey, for example when buyers are about to download a list of services from a framework that’s about to expire.</p>
+
+
+  <h3 class="govuk-heading-m">Things to consider</h3>
+
+  <p class="govuk-body">Don’t use this design:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li><a href="https://design-system.service.gov.uk/components/error-summary/">for errors</a></li>
+    <li><a href="https://design-system.service.gov.uk/components/panel/">to confirm that an action has been completed</a></li>
+    <li>in body content</li>
+  </ul>
+
+<!-- Bit -->
+
+    <h3 class="govuk-heading-m">Contact the Digital Marketplace team</h3>
+
+    <p class="govuk-body">If you’d like to talk to us about the work we did, <a href="mailto:ccsrequests@digitalmarketplace.service.gov.uk">contact the Digital Marketplace team.</a></p>
+
+  </div>
+</div>
+
+{% endblock %}

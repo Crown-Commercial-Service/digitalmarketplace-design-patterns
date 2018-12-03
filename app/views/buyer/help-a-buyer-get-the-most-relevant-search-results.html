@@ -1,0 +1,164 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Help a buyer get the most relevant search results - Digital Marketplace designs
+{% endblock %}
+
+{% block beforeContent %}
+
+<div class="back">
+  <a href="../buyer" class="govuk-back-link">Back to buyer's journey</a>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds intro">
+
+    <h1 class="govuk-heading-xl govuk-!-margin-bottom-2">
+      Help a buyer get the most relevant search results
+    </h1>
+    <p class="govuk-body-l">Help buyers narrow down their search results to make it quick and easy to find the most relevant services.</p>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+  <div class="illustration">
+    <img src="../public/images/get-the-most-relevant-search-results.png" width="100%">
+  </div>
+
+  <h3 class="govuk-heading-m">How the design works</h3>
+
+  <p class="govuk-body">This design helps the user:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>choose the most relevant high-level category before starting to search</li>
+    <li>search in different ways, for example using keywords, filters or more categories</li>
+    <li>filter their search results down to a manageable number</li>
+  </ul>
+
+  <p class="govuk-body">For the filters, we used the <a href="https://design-system.service.gov.uk/components/checkboxes/">checkboxes</a> component from the <a href="https://design-system.service.gov.uk/patterns/">GOV.UK design system</a>.</p>
+
+  <p class="govuk-body">You can read more about how we <a href="https://github.com/alphagov/govuk-design-system-backlog/issues/133">set up search in the design system</a>.</p>
+
+<!-- Bit -->
+
+  <h3 class="govuk-heading-m">Why this is useful</h3>
+
+  <p class="govuk-body">By allowing buyers to search for the service that best matches their search criteria this design:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>makes sure big companies don’t dominate the market as all suppliers are given an equal chance to appear in search results</li>
+    <li>makes buying open and fair by putting the emphasis on finding a service that matches the buyers’ needs and not searching for a supplier already known to the buyer</li>
+  </ul>
+
+<!-- Bit -->
+
+  <h3 class="govuk-heading-m">Things to consider</h3>
+
+  <p class="govuk-body">Don’t use this design if:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>your list of catalogue entries to search isn’t very long</li>
+    <li>your catalogue entries are distinct and can be refined using one search method</li>
+  </ul>
+
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <hr class="govuk-section-break govuk-section-break--l">
+    <h3 class="govuk-heading-l">What we did on the Digital Marketplace</h3>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <p class="govuk-body">The G-Cloud catalogue has over 25,000 services, which means buyers’ searches return a lot of results.</p>
+
+    <p class="govuk-body">We observed that some buyers were using ‘non-compliant’ behaviour to limit results, for example, using known supplier names.</p>
+
+<!-- Bit -->
+
+    <h3 class="govuk-heading-m">What we wanted to do</h3>
+
+    <p class="govuk-body">To do this we wanted to change buyers’ behaviour by making them:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>think about what they needed before they started searching</li>
+      <li>use more than keywords alone to search</li>
+      <li>use filters and categories to refine the number of search results</li>
+    </ul>
+
+    <p class="govuk-body">We also considered:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>making sure buyers and suppliers were using a shared language to describe services</li>
+      <li>displaying results in a random order to make sure they were fair and never favoured a particular supplier</li>
+    </ul>
+
+<!-- Bit -->
+
+    <h3 class="govuk-heading-m">What we designed</h3>
+
+    <p class="govuk-body">Before buyers can search they have to choose a high-level category.</p>
+
+    <div class="illustration">
+      <img src="../public/images/choose-a-category.png" width="100%">
+    </div>
+
+    <p class="govuk-body">This gives buyers the option to limit their search results to the general category they’re interested in. </p>
+
+    <p class="govuk-body">Once on the search page, buyers can use sub-categories and filters to further narrow their search.</p>
+
+    <div class="illustration">
+      <img src="../public/images/sub-categories-and-filters.png" width="100%">
+    </div>
+
+    <p class="govuk-body">Checkboxes allow buyers to apply the filters that are the most relevant to their requirements. Filter options are based on the information suppliers give to describe their services.</p>
+
+    <p class="govuk-body">We did a lot of research and testing to find a way to describe cloud services that makes sense to both buyers and suppliers.</p>
+
+<!-- Bit -->
+
+    <h3 class="govuk-heading-m">What we learnt</h3>
+
+    <p class="govuk-body">When we tested and implemented this design we learnt that:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>including a page before search where buyers choose a category makes buyers think more about what they need </li>
+      <li>building fairness into the system helps buyers meet the procurement regulations</li>
+      <li>buyers expect search to work like Google and we need to provide other options to help them refine their search</li>
+      <li>buyers and suppliers need a shared language, which they don’t have currently</li>
+    </ul>
+
+<!-- Bit -->
+
+    <h3 class="govuk-heading-m">How to improve this</h3>
+
+    <p class="govuk-body">This design could be improved if we:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>experimented by indexing more information from suppliers’ service descriptions in order to return more relevant search results for buyers - we currently only index the service summary, categories, features and benefits fields</li>
+      <li>explored the benefits of introducing auto-correct or synonyms for search terms</li>
+      <li>created a formal taxonomy of terms that are common to buyers and suppliers</li>
+      <li>spent more time looking at the titles of the filters and making sure they match buyers expectations</li>
+    </ul>
+
+<!-- Bit -->
+
+    <h3 class="govuk-heading-m">Contact the Digital Marketplace team</h3>
+
+    <p class="govuk-body">If you’d like to talk to us about the work we did, <a href="mailto:ccsrequests@digitalmarketplace.service.gov.uk">contact the Digital Marketplace team.</a></p>
+
+  </div>
+</div>
+
+{% endblock %}

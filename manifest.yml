@@ -1,0 +1,5 @@
+---
+applications:
+- name: digital-marketplace-designs
+  memory: 256M
+  buildpack: nodejs_buildpack

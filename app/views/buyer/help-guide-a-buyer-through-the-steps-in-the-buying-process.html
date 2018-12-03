@@ -1,0 +1,151 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Help guide a buyer through the steps in the buying process - Digital Marketplace designs
+{% endblock %}
+
+{% block beforeContent %}
+
+<div class="back">
+  <a href="../buyer" class="govuk-back-link">Back to buyer's journey</a>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds intro">
+
+    <h1 class="govuk-heading-xl govuk-!-margin-bottom-2">
+      Help guide a buyer through the steps in the buying process
+    </h1>
+    <p class="govuk-body-l">Use this design if you need to guide users through the buying process in a specific order.</p>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+<!-- Bit -->
+
+  <div class="illustration">
+    <img src="../public/images/guide-a-buyer-through-process.png" width="100%">
+  </div>
+
+  <p class="govuk-body">This design is based on the <a href="https://design-system.service.gov.uk/patterns/task-list-pages/">task list pattern in the GOV.UK design system</a>.</p>
+
+<!-- Bit -->
+
+  <h3 class="govuk-heading-m">How the design works</h3>
+
+  <p class="govuk-body">This design gives users a:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>list of tasks</li>
+    <li>description of each task, with guidance in some cases</li>
+    <li>‘Complete’ label once each task is finished</li>
+    <li>set order to do tasks in</li>
+  </ul>
+
+<!-- Bit -->
+
+  <h3 class="govuk-heading-m">Why this is useful</h3>
+
+  <p class="govuk-body">Users who are buying goods and services from a framework need to:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>follow the procurement regulations/buy fairly and openly</li>
+    <li>know what they’re doing is right</li>
+    <li>create an audit trail</li>
+    <li>find the product that best meets their needs</li>
+  </ul>
+
+<!-- Bit -->
+
+  <h3 class="govuk-heading-m">Things to consider</h3>
+
+  <p class="govuk-body">Don’t use this if users can complete tasks in any order.</p>
+
+  <p class="govuk-body">There’s more discussion about the standard task list design pattern in the <a href="https://github.com/alphagov/govuk-design-system-backlog/issues/72">design system’s community pages</a>.</p>
+
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <hr class="govuk-section-break govuk-section-break--l">
+    <h3 class="govuk-heading-l">What we did on the Digital Marketplace</h3>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+<!-- Bit -->
+
+  <p class="govuk-body">A task list could be used for any framework. In this example, it's used on the <a href="https://www.digitalmarketplace.service.gov.uk/buyers/direct-award/g-cloud/start">G-Cloud start page</a>. </p>
+
+  <p class="govuk-body">For G-Cloud, we needed users to follow 5 steps to buy. Each step needs to be completed in order.</p>
+
+<!-- Bit -->
+
+  <h3 class="govuk-heading-m">What problem were we trying to solve</h3>
+
+  <p class="govuk-body">We wanted to:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>learn how buyers would respond to a more guided online G-Cloud journey</li>
+    <li>understand how we could create a journey for G-Cloud buyers which would make capturing award data easier</li>
+  </ul>
+
+<!-- Bit -->
+
+  <h3 class="govuk-heading-m">What we learnt</h3>
+
+  <p class="govuk-body">We looked at how users were buying using G-Cloud.</p>
+
+  <p class="govuk-body">We found:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>there are 2 main use cases – people who need to do some research and people who need to buy a service through G-Cloud</li>
+    <li>users with in-house procurement software stop using the Digital Marketplace once they’ve downloaded or copied their search results and use their own systems to complete the buying process</li>
+  </ul>
+
+<!-- Bit -->
+
+  <h3 class="govuk-heading-m">How to improve this</h3>
+
+  <p class="govuk-body">More work needs to be done to think about:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>why returning to the task list doesn’t seem to be a natural step for buyers after they’ve downloaded their search results</li>
+    <li>giving more people access to the buyer account so they can work together, for example when shortlisting and evaluating</li>
+    <li>how to help buyers after they’ve exported their search results, for example they have to evaluate suppliers offline</li>
+    <li>why the ‘I have read and understood’ button (on step 3) isn’t what buyers expected to see</li>
+    <li>why some buyers don’t know about or won’t complete the <a href="http://ccs-agreements.cabinetoffice.gov.uk/sites/default/files/contracts/G-Cloud%20Customer%20Benefits%20Record_4.docx">customer benefits record</a></li>
+  </ul>
+
+<!-- Bit -->
+
+  <h3 class="govuk-heading-m">Where else the pattern’s used</h3>
+
+  <p class="govuk-body">On the Digital Marketplace, we use the pattern in 3 places:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>the G-Cloud start page</li>
+    <li>the Digital Outcomes and Specialists requirements page</li>
+    <li>when suppliers are applying to a framework</li>
+  </ul>
+
+<!-- Bit -->
+
+  <h3 class="govuk-heading-m">Contact the Digital Marketplace team</h3>
+
+  <p class="govuk-body">If you’d like to talk to us about the work we did, <a href="mailto:ccsrequests@digitalmarketplace.service.gov.uk">contact the Digital Marketplace team.</a></p>
+
+  </div>
+</div>
+
+{% endblock %}

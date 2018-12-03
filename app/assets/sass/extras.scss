@@ -1,0 +1,87 @@
+.govuk-list .govuk-link {
+  text-decoration: none;
+}
+
+.govuk-section-break--l {
+  border: 1px solid $govuk-link-colour;
+}
+
+.intro {
+  margin-bottom: govuk-spacing(6)
+}
+
+.illustration {
+  width: 100%;
+  margin: 0 0 40px 0;
+}
+
+.screenshot {
+  width: 100%;
+  border: 2px solid govuk-colour("grey-3");
+  margin: govuk-spacing(2) govuk-spacing(0) govuk-spacing(6) govuk-spacing(0);
+  position: relative;
+  padding-top: govuk-spacing(6);
+}
+
+.screenshot::before {
+  content: "EXAMPLE";
+  background-color: govuk-colour("grey-3");
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: govuk-spacing(0) govuk-spacing(2);
+  font-family: "nta", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.timeline {
+  border-left: 5px solid $govuk-border-colour;
+}
+
+.timeline-entry, .timeline-entry-or {
+  margin: 1em 0;
+  padding: 15px 0 5px 30px;
+  position: relative;
+}
+
+.timeline-entry::before {
+  content: ' ';
+  height: 5px;
+  width: 10px;
+  background-color: $govuk-border-colour;
+  position: absolute;
+  left: 0;
+  top: 25px;
+}
+
+.timeline-entry-or::before {
+  content: 'or';
+  position: absolute;
+  left: -5px;
+  background-color: white;
+  top: 13px;
+  padding: 2px 0 2px 0;
+}
+
+.timeline-pattern-link {
+  display: block;
+}
+
+.last {
+  padding-bottom: 25px;
+}
+
+.timeline-pattern-link::before {
+  content: '\2022';
+  padding-right: 10px;
+  font-weight: 700;
+}
+
+.graph {
+  width: 100%;
+  border: 2px solid govuk-colour("grey-3");
+  margin: govuk-spacing(6) govuk-spacing(0);
+  position: relative;
+  padding-top: govuk-spacing(6);
+}

@@ -1,0 +1,82 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Help a buyer see all their activities on the Digital Marketplace - Digital Marketplace designs
+{% endblock %}
+
+{% block beforeContent %}
+
+<div class="back">
+  <a href="../buyer" class="govuk-back-link">Back to buyer's journey</a>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds intro">
+
+    <h1 class="govuk-heading-xl govuk-!-margin-bottom-2">
+      Help a buyer see all their activities on the Digital Marketplace
+    </h1>
+    <p class="govuk-body-l">This design helps buyers to see a list of all their buying activities on the Digital Marketplace.</p>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+  <div class="illustration">
+    <img src="../public/images/see-all-their-activity.png" width="100%">
+  </div>
+
+  <!-- Bit -->
+
+  <h3 class="govuk-heading-m">How the design works</h3>
+
+  <p class="govuk-body">On their account page, buyers can chose to view their buying activity by framework. Buyers are then shown a list of their published requirements for each framework.</p>
+
+  <p class="govuk-body">Each requirement is listed by its status, for example published or closed.</p>
+
+  <p class="govuk-body">Results are listed in chronological order and by:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>requirement name</li>
+    <li>date</li>
+    <li>status</li>
+  </ul>
+
+  <h3 class="govuk-heading-m">Why this is useful</h3>
+
+  <p class="govuk-body">This design helps by:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>prompting buyers to update what’s happening with their procurement, for example by confirming who won the contract</li>
+    <li>giving buyers a place to return to work in progress</li>
+    <li>keeping an audit trail of all the work done</li>
+  </ul>
+
+  <h3 class="govuk-heading-m">Things to consider</h3>
+
+  <p class="govuk-body">Don’t use this for simple transactions that you don’t need to return to.</p>
+
+  <p class="govuk-body">It would also be helpful to:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>provide shared access to a buyer account so team members can work together</li>
+    <li>provide an archive function as the list of past work could get long over time</li>
+    <li>be able to delete unwanted requirements</li>
+    <li>think about about how to present an overview of requirements with multiple frameworks</li>
+    <li>consider the language used and whether it’s more useful to classify by framework name or what’s being bought</li>
+  </ul>
+
+  <h3 class="govuk-heading-m">Contact the Digital Marketplace team</h3>
+
+  <p class="govuk-body">If you’d like to talk to us about the work we did, <a href="mailto:ccsrequests@digitalmarketplace.service.gov.uk">contact the Digital Marketplace team.</a></p>
+
+  </div>
+</div>
+
+{% endblock %}
