@@ -1,0 +1,87 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Help a supplier accept a contract variation - Digital Marketplace designs
+{% endblock %}
+
+{% block beforeContent %}
+
+<div class="back">
+  <a href="../supplier" class="govuk-back-link">Back to supplier's journey</a>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds intro">
+
+    <h1 class="govuk-heading-xl govuk-!-margin-bottom-2">
+      Help a supplier accept a contract variation
+    </h1>
+    <p class="govuk-body-l">This design helps suppliers agree to a change in their original framework agreement and call-off contract.</p>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+  <div class="illustration">
+    <img src="../public/images/placeholder.png" width="100%">
+  </div>
+
+  <h3 class="govuk-heading-m">How the design works</h3>
+
+  <p>Use this design if you need:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>to show users what‘s changed</li>
+    <li>users to be able to accept the changes</li>
+  </ul>
+
+  <p>To accept changes to the framework agreement’s terms and conditions, suppliers need to:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>sign in to their accounts</li>
+    <li>read the contract variation and see what’s changed</li>
+    <li>click the accept button to agree the changes</li>
+  </ul>
+
+
+  <h3 class="govuk-heading-m">Components used in the design</h3>
+
+  <p>How we show suppliers the text changes has been <a href="https://github.com/alphagov/govuk-design-system-backlog/issues/126">discussed in the GOV.UK design system</a>.</p>
+
+
+
+  <h3 class="govuk-heading-m">Why this is useful</h3>
+
+  <p>On all other Crown Commercial Service (CCS) frameworks, contract variations need to be emailed to suppliers, printed out and signed, scanned and emailed back to CCS.</p>
+
+  <p>This is a much longer and more manual process. Avoiding this saves supplier time and effort.</p>
+
+
+  <h3 class="govuk-heading-m">Things to consider</h3>
+
+  <p>This design had to be developed really quickly. That meant there was no time to test it with suppliers.</p>
+
+  <p>To improve the design, it would be worth:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>accessibility testing the design, for example the green and red used may not provide adequate colour contrast</li>
+    <li>making the link to the contract variation more prominent in supplier accounts</li>
+  </ul>
+
+
+<!-- Bit -->
+
+    <h3 class="govuk-heading-m">Contact the Digital Marketplace team</h3>
+
+    <p class="govuk-body">If you’d like to talk to us about the work we did, <a href="mailto:ccsrequests@digitalmarketplace.service.gov.uk">contact the Digital Marketplace team.</a></p>
+
+  </div>
+</div>
+
+{% endblock %}

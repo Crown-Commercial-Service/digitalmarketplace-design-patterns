@@ -1,0 +1,82 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+Help a supplier see all the work they’ve applied for - Digital Marketplace designs
+{% endblock %}
+
+{% block beforeContent %}
+
+<div class="back">
+  <a href="../supplier" class="govuk-back-link">Back to supplier's journey</a>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds intro">
+
+    <h1 class="govuk-heading-xl govuk-!-margin-bottom-2">
+      Help a supplier see all the work they’ve applied for
+    </h1>
+    <p class="govuk-body-l">This design allows suppliers to view all the work they’ve applied, or are currently applying, for.</p>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+  <div class="illustration">
+    <img src="../public/images/placeholder.png" width="100%">
+  </div>
+
+  <h3 class="govuk-heading-m">How the design works</h3>
+
+  <p>When suppliers sign into their accounts, they can view a list of all the contracts they’ve applied for by framework. Only current framework iterations are shown.</p>
+
+  <p>Suppliers can view by:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>applications started</li>
+    <li>applications made</li>
+  </ul>
+
+  <p>Each entry in the list displays the supplier name, deadline and application status, for example won or unsuccessful.</p>
+
+  <p>If the work has been awarded, suppliers can see:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>who won the contract</li>
+    <li>the size of the winning company</li>
+    <li>how much the contract was worth</li>
+    <li>when work started on the contract</li>
+  </ul>
+
+  <h3 class="govuk-heading-m">Why this is useful</h3>
+
+  <p>This design gives suppliers a record of all the work they’ve applied for. It also allows them to see who won the contract if their application was unsuccessful.</p>
+
+  <h3 class="govuk-heading-m">Things to consider</h3>
+
+  <p>It’s worth considering:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>how to refer to work applied for, the Digital Marketplace uses the term ‘opportunities’ but we don’t know how universally understood this is by suppliers and buyers</li>
+    <li>how to display the work applied for, at the moment it’s just one long page</li>
+    <li>adding an expired status for old framework iterations</li>
+    <li>making the link to the work applied for easier to find</li>
+  </ul>
+
+
+<!-- Bit -->
+
+    <h3 class="govuk-heading-m">Contact the Digital Marketplace team</h3>
+
+    <p class="govuk-body">If you’d like to talk to us about the work we did, <a href="mailto:ccsrequests@digitalmarketplace.service.gov.uk">contact the Digital Marketplace team.</a></p>
+
+  </div>
+</div>
+
+{% endblock %}

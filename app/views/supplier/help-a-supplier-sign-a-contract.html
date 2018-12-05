@@ -1,0 +1,85 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Help a supplier sign a contract - Digital Marketplace designs
+{% endblock %}
+
+{% block beforeContent %}
+
+<div class="back">
+  <a href="../supplier" class="govuk-back-link">Back to supplier's journey</a>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds intro">
+
+    <h1 class="govuk-heading-xl govuk-!-margin-bottom-2">
+      Help a supplier sign a contract
+    </h1>
+    <p class="govuk-body-l">The design helps suppliers sign their framework agreement so they can enter into a contract with the Crown Commercial Service (CCS).</p>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+  <div class="illustration">
+    <img src="../public/images/placeholder.png" width="100%">
+  </div>
+
+  <h3 class="govuk-heading-m">How the design works</h3>
+
+  <p>Use this design if you need to:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>ensure the appropriate person signs a framework agreement</li>
+    <li>remind suppliers to sign their contracts (by putting it in their account)</li>
+  </ul>
+
+  <p>From their account, suppliers are prompted to download the signature page of a framework agreement and then return the signed document.</p>
+
+  <p>To do this, suppliers enter the name and position of the person who is signing the contract and then upload the document (including a wet or electronic signature).</p>
+
+  <p>For extra security, they’re asked to check the details they’ve uploaded before submitting their contract and to tick a box to confirm the person who’s signed has the authority to do so.</p>
+
+  <p>Finally, suppliers are told that once they click on a button to confirm and return the document, it will be passed directly on to CCS. This message is also repeated in the confirmation banner which lets them know that CCS will now countersign the document.</p>
+
+  <p>Suppliers are notified by email when CCS have countersigned the contract. There are 2 separate signed PDFs in their account.</p>
+
+  <h3 class="govuk-heading-m">Components used in the design</h3>
+
+  <p>This design uses the <a href="https://design-system.service.gov.uk/components/file-upload/">file upload</a> component.</p>
+
+
+  <h3 class="govuk-heading-m">Why this is useful</h3>
+
+  <p>Putting the signing process within the account means suppliers are reminded to sign it whenever they log in. The prompt only disappears once they have completed this task.</p>
+
+
+  <h3>Things to consider</h3>
+
+  <p>To improve this design, it might be worth considering:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>how to help suppliers sign their contracts directly on the page (as uploads are bad for accessibility)</li>
+    <li>if suppliers should only be allowed to sell services once their contract is signed? If so, should they be removed from the framework automatically if they don’t sign it</li>
+    <li>showing the 2 signatures on one document, rather than in 2 separate documents</li>
+    <li>providing the documents in an accessible format, not just as a PDF</li>
+  </ul>
+
+
+<!-- Bit -->
+
+    <h3 class="govuk-heading-m">Contact the Digital Marketplace team</h3>
+
+    <p class="govuk-body">If you’d like to talk to us about the work we did, <a href="mailto:ccsrequests@digitalmarketplace.service.gov.uk">contact the Digital Marketplace team.</a></p>
+
+  </div>
+</div>
+
+{% endblock %}

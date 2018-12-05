@@ -1,0 +1,88 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Help a supplier ask a question about a framework - Digital Marketplace designs
+{% endblock %}
+
+{% block beforeContent %}
+
+<div class="back">
+  <a href="../supplier" class="govuk-back-link">Back to supplier's journey</a>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds intro">
+
+    <h1 class="govuk-heading-xl govuk-!-margin-bottom-2">
+      Help a supplier ask a question about a framework
+    </h1>
+    <p class="govuk-body-l">This design helps a supplier asks questions about a framework and see what others have asked.</p>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+  <div class="illustration">
+    <img src="../public/images/placeholder.png" width="100%">
+  </div>
+
+  <h3 class="govuk-heading-m">How the design works</h3>
+
+  <p>Use this design if you need to:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>help users ask questions</li>
+    <li>make sure the same information is available for all suppliers at the same time</li>
+  </ul>
+
+  <p>Suppliers can submit a question about their application, or the framework, through their account. Suppliers can find this function under ‘Communications’ on their account page.</p>
+
+  <p>Once submitted, the answer will be published publicly along with all other questions and answers for that week.</p>
+
+  <p>For framework clarification questions, responses are split into 3 separate PDFs containing:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>legal questions</li>
+    <li>commercial questions</li>
+    <li>questions about their application</li>
+  </ul>
+
+  <p>Any information that could be sensitive or used to identify suppliers is removed before publication.</p>
+
+  <h3 class="govuk-heading-m">Why this is useful</h3>
+
+  <p>This provides a way for suppliers to ask questions and resolve any problems before the framework closes for applications.</p>
+
+  <p>This also means all answers are available to all suppliers at the same time. So no suppliers have information that could put them in a favourable position.</p>
+
+  <h3 class="govuk-heading-m">Things to consider</h3>
+
+  <p>It might be worth considering that:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>suppliers often repeat questions that have already been asked which suggests they are not seeing the answer to the original question</li>
+    <li>the answers are published weekly in 3 separate PDFs which creates a lot of work for users</li>
+    <li>the distinction between the 3 PDFs isn’t clear and reflects internal departmental divisions </li>
+    <li>the ‘ask a question’ feature is hidden far down the page under ‘Communications which could mean users miss it entirely</li>
+    <li>‘Communications’ is a rather vague title which may not always be clear to users</li>
+    <li>if a question hasn’t been answered in time for the weekly update, the holding text says ‘answer coming soon’ which could prompt suppliers to send the question again</li>
+    <li>suppliers have no way of knowing their question has been answered other than checking through all 3 PDFs</li>
+  </ul>
+
+
+<!-- Bit -->
+
+    <h3 class="govuk-heading-m">Contact the Digital Marketplace team</h3>
+
+    <p class="govuk-body">If you’d like to talk to us about the work we did, <a href="mailto:ccsrequests@digitalmarketplace.service.gov.uk">contact the Digital Marketplace team.</a></p>
+
+  </div>
+</div>
+
+{% endblock %}

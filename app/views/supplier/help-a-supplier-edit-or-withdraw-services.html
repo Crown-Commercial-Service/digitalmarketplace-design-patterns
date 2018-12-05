@@ -1,0 +1,95 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+Help a supplier edit or withdraw services - Digital Marketplace designs
+{% endblock %}
+
+{% block beforeContent %}
+
+<div class="back">
+  <a href="../supplier" class="govuk-back-link">Back to supplier's journey</a>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds intro">
+
+    <h1 class="govuk-heading-xl govuk-!-margin-bottom-2">
+      Help a supplier edit or withdraw services
+    </h1>
+    <p class="govuk-body-l">This design allows suppliers to edit or withdraw their live services.</p>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+  <div class="illustration">
+    <img src="../public/images/placeholder.png" width="100%">
+  </div>
+
+  <h3 class="govuk-heading-m">How the design works</h3>
+
+  <p>In their account pages, suppliers can see all of their services currently live on the Digital Marketplace. Services are listed by framework and then by lot.</p>
+
+  <h3 class="govuk-heading-s">Editing services</h3>
+
+  <p>Each service has an edit button next to it. When clicked, suppliers can edit the details of that service by section:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>service name</li>
+    <li>about your service</li>
+    <li>service features and benefits</li>
+    <li>documents</li>
+  </ul>
+
+  <p>Site administrators have a record of all the edits to confirm these are not 'material' changes. Suppliers can’t edit the service attributes section of their service.</p>
+
+  <p>Once suppliers have made the changes a banner confirms the changes are live.</p>
+
+  <h3 class="govuk-heading-s">Withdrawing services</h3>
+
+  <p>Suppliers can remove their services one by one using the remove button at the bottom of each service page.</p>
+
+  <p>Clicking the ‘Remove service’ button displays a banner confirming:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>the service will be removed</li>
+    <li>to reinstate the service suppliers will need to contact the Digital Marketplace team</li>
+  </ul>
+
+  <p>A banner confirms the service has been removed.</p>
+
+  <p>The service is still shown in the suppliers’ list but with a ‘removed’, rather than ‘live’, status.</p>
+
+  <h3 class="govuk-heading-m">Why this is useful</h3>
+
+  <p>This design allows suppliers to make changes quickly and easily to their services.</p>
+
+  <p>It also means there’s no administrative burden of making the changes for suppliers.</p>
+
+  <h3 class="govuk-heading-m">Things to consider</h3>
+
+  <p>It’d be worth considering:</p>
+
+  <ul class="govuk-list govuk-list--bullet">
+    <li>giving the framework authority approval of any changes suppliers want to make to their services</li>
+    <li>if you allow suppliers to remove services also letting them reinstate them, rather than having to email the Digital Marketplace team</li>
+    <li>how better to display the services other than having a list of services, split by lot, on one long page</li>
+  </ul>
+
+
+<!-- Bit -->
+
+    <h3 class="govuk-heading-m">Contact the Digital Marketplace team</h3>
+
+    <p class="govuk-body">If you’d like to talk to us about the work we did, <a href="mailto:ccsrequests@digitalmarketplace.service.gov.uk">contact the Digital Marketplace team.</a></p>
+
+  </div>
+</div>
+
+{% endblock %}
